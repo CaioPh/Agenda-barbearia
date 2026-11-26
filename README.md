@@ -8,10 +8,12 @@ Aplicação para agendar serviço da Barbearia, desenvolvimento front-end com da
 
 Campo | Tipo | Descrição 
 
-'id' | String | Indentificador
-'cliente' | String | Primeiro nome do cliente 
-'Servico' | String | Opçoes fixas: corte, barba combo, acabamento (Obrigatório)
-'barbeiro'| String | Nome do barbeiro resposavel por atender 
-'valor'   | Number | Valor do corte
-'datahora | String | Data e hora do atendimento (obrigatório)
-'Estilo"  | String | preferencias do estilo ou detalhes opcionais 
+| Campo | Tipo | Descrição |
+| :--- | :--- | :--- |
+| `id` | `String` | Identificador único do agendamento |
+| `cliente` | `String` | Primeiro nome do cliente |
+| `Servico` | `String` | Opções fixas: corte, barba, combo, acabamento *(Obrigatório)* |
+| `barbeiro` | `String` | Nome do barbeiro responsável por atender |
+| `valor` | `Number` | Valor do corte |
+| `datahora` | `String` | Data e hora do atendimento *(Obrigatório)* |
+| `Estilo` | `String` | Preferências do estilo ou detalhes opcionais |
